@@ -18,7 +18,7 @@ const scene = new THREE.Scene()
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const particleTexture = textureLoader.load('/textures/particles/9.png')
+const particleTexture = textureLoader.load('../static/textures/particles/9.png')
 
 /**
  * Test octahedron
